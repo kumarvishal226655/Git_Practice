@@ -21,5 +21,7 @@ app.get("/", (req, res) => {
 
 app.use("/api/auth", authRoutes);
 
+// Main branch update
+
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => console.log(`Server running on ${PORT}`));
